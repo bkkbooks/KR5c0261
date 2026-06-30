@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0261/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0261/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 元陽子五假論
+  date: '2015-08-29 00:55:10.262849'
+  source:
+    repository: kanripo
+    path: KR5c0261
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0261_000-HFL.yaml, hash: 'sha256:73a80a9eef779c2d446b2ba457f996b336563ca90f6ed84f6394496aa98e76ff'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0261_000-HFL.markers.yaml, hash: 'sha256:99929601782586a4d374a4ff68df5873e535a50ba120d3b4fec6ca97d1b4dfcc'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0261_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1108
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c2fc0691a5c14b46d51bf1c5d02ff7432dce0030b3abe43eb8fe43f79934ff07
